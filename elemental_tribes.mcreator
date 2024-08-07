@@ -1,0 +1,104 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmberfangTribeSpiritGemWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberfang_tribe_spirit_gem_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementaltribes/procedures/EmberfangTribeSpiritGemWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/curios"
+    },
+    {
+      "name": "EmberfangTribeSpiritGem",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emberfang_tribe_spirit_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementaltribes/item/EmberfangTribeSpiritGemItem.java",
+          "src/main/resources/assets/elemental_tribes/models/item/emberfang_tribe_spirit_gem.json"
+        ]
+      },
+      "path": "~/curios"
+    },
+    {
+      "name": "FrostHeartClanSpiritGemWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_heart_clan_spirit_gem_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementaltribes/procedures/FrostHeartClanSpiritGemWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/curios"
+    },
+    {
+      "name": "FrostHeartClanSpiritGem",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_heart_clan_spirit_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementaltribes/item/FrostHeartClanSpiritGemItem.java",
+          "src/main/resources/assets/elemental_tribes/models/item/frost_heart_clan_spirit_gem.json"
+        ]
+      },
+      "path": "~/curios"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.elemental_tribes.frost_heart_clan_spirit_gem": "Frost Heart Clan Spirit Gem",
+      "item.elemental_tribes.emberfang_tribe_spirit_gem": "Emberfang Tribe Spirit Gem"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "curios",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "elemental_tribes",
+    "modName": "Elemental Tribes",
+    "version": "1.0.0",
+    "author": "rockm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.elementaltribes"
+  },
+  "mcreatorVersion": 202400232117
+}
