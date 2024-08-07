@@ -31,7 +31,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hasGlow": false,
+    "hasGlow": true,
     "customProperties": {},
     "states": [],
     "guiBoundTo": "<NONE>",
