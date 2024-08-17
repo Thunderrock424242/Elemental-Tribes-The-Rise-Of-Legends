@@ -60,6 +60,20 @@
         ]
       },
       "path": "~/curios"
+    },
+    {
+      "name": "FrostHeartCamp",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_heart_camp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elemental_tribes/worldgen/structure_set/frost_heart_camp.json",
+          "src/main/resources/data/elemental_tribes/worldgen/structure/frost_heart_camp.json",
+          "src/main/resources/data/elemental_tribes/worldgen/template_pool/frost_heart_camp.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
