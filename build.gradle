@@ -24,23 +24,8 @@ runs {
     server {}
 }
 
-
-repositories {
-    exclusiveContent {
-        forRepository {
-            maven {
-                url "https://cursemaven.com"
-            }
-        }
-        filter {
-            includeGroup "curse.maven"
-        }
-    }
-}
-
 dependencies {
     implementation 'net.neoforged:neoforge:20.6.117'
-    implementation "curse.maven:wilderness-oddesy-api-971700:5603279"
 }
 
 tasks.withType(JavaCompile).configureEach {

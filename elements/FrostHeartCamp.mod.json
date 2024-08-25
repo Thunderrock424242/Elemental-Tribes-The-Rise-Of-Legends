@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "structure",
   "definition": {
-    "structure": "ice_camp",
+    "structure": "ice_camp2",
     "projection": "terrain_matching",
     "ignoredBlocks": [
       {

@@ -4,12 +4,6 @@
  */
 package net.mcreator.elementaltribes.init;
 
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.DeferredHolder;
-
-import net.minecraft.world.item.Item;
-import net.minecraft.core.registries.BuiltInRegistries;
-
 import net.mcreator.elementaltribes.item.FrostHeartClanSpiritGemItem;
 import net.mcreator.elementaltribes.item.EmberfangTribeSpiritGemItem;
 import net.mcreator.elementaltribes.ElementalTribesMod;
